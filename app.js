@@ -14,26 +14,36 @@
 
 
 
-    const plant = 0.8
-    const PI = 3.1415;
+    const area = 3.1415 * 5 *5 
+    
+console.log( area);
+
+const plantWeek1 = 20;
+const plantWeek2 = 40;
+const plantWeek3 = 80;
+ const maxOfPlants = 98
 
 
 
-    const radius = 5
-
-
-    const area = PI * radius * radius;
-    console.log(area)
 
 
 
 
-    function plantGrowth (weeks){
+function plantsCondition(plants){
+  if ( plants > 78 ){
+    console.log("The capacity of the garden has been exceeded")
+  }
 
-        
-        console.log( PI *)
-    }
+  if (plants > 44 && plants < 78){
+    console.log("The garden is growing at an acceptable rat")
+  } 
 
+  if (plants < 44){
+    console.log("There is room to grow more plants")
+  }
+}
+
+plantsCondition(plantWeek1);
 
 
 // Implement control flow to make decisions on whether the plants should be:
