@@ -14,19 +14,14 @@
 
 
 
-    const area = 3.1415 * 5 *5 
+const area = 3.1415 * 5 *5 
     
 console.log( area);
 
 const plantWeek1 = 20;
 const plantWeek2 = 40;
 const plantWeek3 = 80;
- const maxOfPlants = 98
-
-
-
-
-
+const maxOfPlants = 98
 
 
 function plantsCondition(plants){
@@ -44,6 +39,20 @@ function plantsCondition(plants){
 }
 
 plantsCondition(plantWeek1);
+
+
+
+const scientistPlant= 100
+
+try {
+    if (scientistPlant <  98){
+      console.log("Looking good!")
+    } else {
+        throw error
+    }
+} catch (error) {
+    console.log("Too many plants!!!!")
+}
 
 
 // Implement control flow to make decisions on whether the plants should be:
