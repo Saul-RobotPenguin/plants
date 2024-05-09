@@ -10,6 +10,32 @@
 // Predict the plant growth after a specific number of weeks.
 
 
+
+
+
+
+    const plant = 0.8
+    const PI = 3.1415;
+
+
+
+    const radius = 5
+
+
+    const area = PI * radius * radius;
+    console.log(area)
+
+
+
+
+    function plantGrowth (weeks){
+
+        
+        console.log( PI *)
+    }
+
+
+
 // Implement control flow to make decisions on whether the plants should be:
 // Pruned, to stop them from exceeding the capacity of the garden.
 // This condition should be met if the plant count after the given number of weeks is greater than 80% of the maximum capacity of the garden.
@@ -22,3 +48,5 @@
 
 
 
+///first week is 20 plants
+// second week is 40
